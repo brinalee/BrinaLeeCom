@@ -13,18 +13,18 @@
 				<header>
 					<div id = "header">
 						<div id = "logo">
-							<a href="../"><img src="images/logo.png" alt="Brina Lee Logo" /></a>
+							<a href="./"><img src="images/logo.png" alt="Brina Lee Logo" /></a>
     					</div>
 					</div>
 				</header>
 				<nav>
 					<div id ="main-nav">
 						<ul>
-							<li><a href="../resume.php">resume</a></li>
-							<li><a href="../portfolio.php">portfolio</a></li>
-							<li><a href="../blog.php">blog</a></li>
-							<li><a href="../about.php">about</a></li>
-							<li><a href="../contact.php">contact</a></li>
+							<li><a href="resume.php">resume</a></li>
+							<li><a href="portfolio.php">portfolio</a></li>
+							<li><a href="blog.php">blog</a></li>
+							<li><a href="about.php">about</a></li>
+							<li><a href="contact.php">contact</a></li>
 						</ul>
 						<ul id = "social">
 							<li><a href="http://www.delicious.com/brinalee"><img src="images/delicious2.png" alt="Brina Lee Logo" /></a></li>

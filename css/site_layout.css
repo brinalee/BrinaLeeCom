@@ -95,10 +95,12 @@ h3 + h4
 
 html
 {
-	/*background-color: #D2D6D5;*/
+	background-color: #D6D6D6;
 	background: url("../images/bg4.gif") repeat;
+	background-attachment: fixed;
 	margin: 0px;
 	font-size: 15px;
+	line-height: 20px;
 	font-family: "Liberation Sans", Helvetica-Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -140,7 +142,7 @@ body
 #main-nav
 {
 	font-size: 18px;
-	height: 500px;
+	height: 450px;
 	float: left;
 }
 
@@ -148,7 +150,7 @@ body
 {
 	display: block;
 	position: fixed;
-	top: 150px;
+	top: 165px;
 	width: 113px;
 	text-align: right;
 	text-shadow: #fff 1px 1px 0;
@@ -156,31 +158,28 @@ body
 
 #main-nav ul li
 {
-	display: block;
-	width: 112px;
 	list-style-type: none;
 }
 
 #main-nav ul li a
 {
+	display: block;
+	width: 112px;
 	color: #555555;
 	line-height: 30px;
+	padding-right: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 }
 
-/*
 #main-nav ul li a:hover
 {
-	color: #3D3D3D;
 	background-color: #FCE700;
 	background: -webkit-gradient(linear, left top, left bottom, from(#FCE700), to(#F6CC00));
 	background: -moz-linear-gradient(top,  #FCE700,  #F6CC000);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FCE700', endColorstr='#F6CC00');
-}
-*/
-
-#main-nav ul li a:hover
-{
-	color: #ED002F;
+	text-shadow: #FCEE6F 1px 1px 0;
 }
 
 #main-nav ul li a:active
@@ -193,7 +192,7 @@ body
 
 #main-nav ul#social
 {
-	top: 323px;
+	top: 350px;
 	width: 113px;
 }
 
@@ -201,6 +200,17 @@ body
 {
 	list-style-type: none;
 	display: inline;
+}
+
+#main-nav ul#social li a
+{
+	display: inline;
+	padding-right: 0px;
+}
+
+#main-nav ul#social li a:hover
+{
+	background: #FFF;
 }
 
 #main-body
@@ -239,9 +249,12 @@ body
 	background-color: #FFF;
 	position: relative;
 	height: 150px;
+	width: 900px;
 	clear: both;
 	border-top: 1px dashed #C0C0C0;
 	margin-top: 125px;
+	font-size: 12px;
+	text-align: right;
 }
 
 form
@@ -295,6 +308,18 @@ form input.button
 	margin-top: 10px;
 	width: 88px;
 	height: 30px;
+}
+
+.time
+{
+	font-size: 12px;
+	color: #A4A6A6;
+}
+
+article.current
+{
+	background-color: #F7F4FF;
+	padding: 10px 30px;
 }
 
 [placeholder] 
